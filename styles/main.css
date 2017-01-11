@@ -1,0 +1,86 @@
+html{
+	background-color: #FFFEBB;
+}
+
+body{
+	font-family: 'simsun', sans-serif;
+}
+
+h1{
+	margin: 20px;
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	color: #39f;
+	animation: textAn 1s infinite;
+}
+
+@keyframes textAn{
+	0%{
+		text-shadow: 0 0 0 #39f;
+	}
+	50%{
+		text-shadow: 0 0 5px #39f;
+		color: #33f;
+	}
+	100%{
+		text-shadow: 0 0 0 #39f;
+	}
+}
+
+div{
+	width: 90%;
+	margin: auto;
+}
+
+#list{
+	text-align: center;
+}
+
+#list li{
+	display: inline-block;
+	vertical-align: middle;
+	width: 200px;
+	height: 150px;
+	margin: 10px 20px;
+	border-bottom: 3px solid rgba(0, 0, 0, 0.4);
+	border-radius: 10px;
+}
+
+#list li a{
+	display: block;
+	width: 200px;
+	height: 150px;
+	color: #666;
+}
+#list li a h2{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 40px;
+}
+#list li a div{
+	width: 150px;
+	line-height: 20px;
+	font-size: 12px;
+	text-align: left;
+}
+
+.active::before{
+	content: '';
+	display: block;
+	width: 200px;
+	height: 150px;
+	position: absolute;
+	text-align: center;
+	font-size: 50px;
+	color: #fff;
+	border-radius: 8px;
+	line-height: 150px;
+	transition: all 0.3s;
+	background-color: rgba(0, 0, 0, 0);
+}
+.active:hover::before{
+	content: 'Look';
+	background-color: rgba(0, 0, 0, 0.4);
+}

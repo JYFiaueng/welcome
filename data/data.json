@@ -1,0 +1,97 @@
+[
+	{
+		"title" : "网页打字通",
+		"href" : "https://jyfiaueng.github.io/webTyping/",
+		"content" : "练习打字速度，实时计算，自动对课程进行记录，还可以自定义打字内容和时间，自定义课程记录会存储到本地，再次到来自动加载。"
+	},
+	{
+		"title" : "坦克大战怀旧版",
+		"href" : "https://jyfiaueng.github.io/tank/",
+		"content" : "仿造小时候买的5元机上的黑白坦克大战做的。"
+	},
+	{
+		"title" : "2048出行版",
+		"href" : "https://jyfiaueng.github.io/2048/",
+		"content" : "在慕课网上学习的2048，全部手敲下来，做了一些小修改。"
+	},
+	{
+		"title" : "拼图",
+		"href" : "https://jyfiaueng.github.io/jigsaw/",
+		"content" : "拼图小游戏，使用div拼合实现。"
+	},
+	{
+		"title" : "关于我",
+		"href" : "https://jyfiaueng.github.io/about-me/",
+		"content" : "个人简历，写一些自己掌握的技能和爱好等，还没具体写，先占个位置。"
+	},
+	{
+		"title" : "luan_news",
+		"href" : "https://github.com/JYFiaueng/luan_news",
+		"content" : "潞安集团内部使用的新闻APP，两人合作完成，使用ionic。"
+	},
+	{
+		"title" : "KPArchiveMIS",
+		"href" : "https://github.com/JYFiaueng/KPArchiveMIS",
+		"content" : "一个完整的档案管理系统，后台采用java和mysql，是一个已经上线的项目。"
+	},
+	{
+		"title" : "图书小站",
+		"href" : "https://github.com/JYFiaueng/readBook",
+		"content" : "从豆瓣添加图书数据进行处理展示、图书管理、用户管理等功能，待扩展更多功能。使用nodejs和mongoDB。"
+	},
+	{
+		"title" : "设计模式",
+		"href" : "https://jyfiaueng.github.io/DesignPatterns/",
+		"content" : "对十几种常用的设计模式进行了总结，有很多例子供参考。"
+	},
+	{
+		"title" : "indexedDB",
+		"href" : "https://jyfiaueng.github.io/web-storage/",
+		"content" : "对indexedDB数据库的测试demo，这个还是很有用的。"
+	},
+	{
+		"title" : "Canvas",
+		"href" : "https://jyfiaueng.github.io/Canvas/",
+		"content" : "各种Canvas效果，自己做的和看课程学的。"
+	},
+	{
+		"title" : "看你有多色",
+		"href" : "https://jyfiaueng.github.io/FindColor/",
+		"content" : "玩了“看你有多色”之后自己仿造的一个"
+	},
+	{
+		"title" : "贪吃蛇",
+		"href" : "https://jyfiaueng.github.io/snake/",
+		"content" : "无聊做的一个贪吃蛇"
+	},
+	{
+		"title" : "瀑布流",
+		"href" : "https://jyfiaueng.github.io/Waterfall-Flow/",
+		"content" : "图片不断加载，通过js寻找合适的位置进行定位。"
+	},
+	{
+		"title" : "sort",
+		"href" : "https://jyfiaueng.github.io/sort/",
+		"content" : "八种排序算法对10万个不重复的数进行排序，使用web worker分别计算，列出时间。"
+	},
+	{
+		"title" : "常用色彩",
+		"href" : "https://jyfiaueng.github.io/color/",
+		"content" : "扁平化页面常用的20种色彩。"
+	},
+	{
+		"title" : "禅意花园",
+		"href" : "https://jyfiaueng.github.io/ZenGarden/",
+		"content" : "使用固定的html结构，用css做出不一样的效果，这是我做的一个。"
+	},
+	{
+		"title" : "杂乱",
+		"href" : "https://jyfiaueng.github.io/subassembly/",
+		"content" : "各种小东西，页面小效果等。"
+	},
+	{
+		"title" : "资源",
+		"href" : "https://jyfiaueng.github.io/resource/",
+		"content" : "平时闲的收集的一些博客、资源的链接，有很多大牛神作，有很多都是copy的。<br/>⊙﹏⊙‖∣"
+	}
+]
