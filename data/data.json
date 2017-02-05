@@ -55,6 +55,11 @@
 		"content" : "对十几种常用的设计模式进行了总结，有很多例子供参考。"
 	},
 	{
+		"title" : "Promise/Generator",
+		"href" : "https://jyfiaueng.github.io/PromiseAndGenerator/",
+		"content" : "对Promise和Generator的一些笔记和理解。"
+	},
+	{
 		"title" : "indexedDB",
 		"href" : "https://jyfiaueng.github.io/web-storage/",
 		"content" : "对indexedDB数据库的测试demo，这个还是很有用的。"
