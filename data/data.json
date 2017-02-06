@@ -20,6 +20,11 @@
 		"content" : "爬取慕课网20万用户信息，对经验值进行简单表格处理显示。"
 	},
 	{
+		"title" : "我的影展",
+		"href" : "https://jyfiaueng.github.io/myMovie/",
+		"content" : "把我看过的电影数据全部抓下来做的展示页。"
+	},
+	{
 		"title" : "2048出行版",
 		"href" : "https://jyfiaueng.github.io/2048/",
 		"content" : "在慕课网上学习的2048，全部手敲下来，做了一些小修改。"
