@@ -95,6 +95,11 @@
 		"content" : "八种排序算法对10万个不重复的数进行排序，使用web worker分别计算，列出时间。"
 	},
 	{
+		"title" : "杂乱",
+		"href" : "https://jyfiaueng.github.io/subassembly/",
+		"content" : "各种小东西，页面小效果等。"
+	},
+	{
 		"title" : "常用色彩",
 		"href" : "https://jyfiaueng.github.io/color/",
 		"content" : "扁平化页面常用的20种色彩。"
@@ -108,10 +113,5 @@
 		"title" : "impress介绍",
 		"href" : "https://jyfiaueng.github.io/impressAPI/",
 		"content" : "对impress的API进行简单的介绍。"
-	},
-	{
-		"title" : "杂乱",
-		"href" : "https://jyfiaueng.github.io/subassembly/",
-		"content" : "各种小东西，页面小效果等。"
 	}
 ]
