@@ -100,6 +100,11 @@
 		"content" : "各种小东西，页面小效果等。"
 	},
 	{
+		"title" : "笔记收集",
+		"href" : "https://github.com/JYFiaueng/notes",
+		"content" : "也是一些乱七八糟的东西。"
+	},
+	{
 		"title" : "常用色彩",
 		"href" : "https://jyfiaueng.github.io/color/",
 		"content" : "扁平化页面常用的20种色彩。"
