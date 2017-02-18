@@ -1,10 +1,96 @@
 html{
-	background-color: #FFFEBB;
+	/*background-color: #FFFEBB;*/
+	/*background-color: #C7D7F0;*/
+	background-color: #CCE8CF;
 }
 
 body{
 	font-family: 'simsun', sans-serif;
 }
+
+div{
+	width: 90%;
+	margin: auto;
+}
+
+#list{
+	text-align: center;
+}
+
+#list li{
+	display: inline-block;
+	vertical-align: middle;
+	width: 200px;
+	height: 150px;
+	margin: 20px 40px;
+	border-bottom: 3px solid rgba(0, 0, 0, 0.4);
+	border-radius: 10px;
+}
+
+#list li a{
+	display: block;
+	width: 200px;
+	height: 150px;
+	color: #666;
+	position: relative;
+}
+#list li a h2{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 40px;
+}
+#list li a div{
+	width: 150px;
+	line-height: 20px;
+	font-size: 12px;
+	text-align: left;
+}
+
+.active::before{
+	content: 'View';
+	display: block;
+	width: 200px;
+	height: 150px;
+	position: absolute;
+	text-align: center;
+	font-size: 60px;
+	color: #fff;
+	border-radius: 8px;
+	line-height: 150px;
+	transition: all .4s;
+	transform: perspective(200px) rotateX(90deg);
+	transform-origin: center bottom;
+	background-color: rgba(0, 0, 0, 0);
+}
+.active:hover::before{
+	content: 'View';
+	background-color: rgba(0, 0, 0, 0.2);
+	transform: rotateX(0deg);
+}
+.active::after{
+	content: 'View';
+	display: block;
+	width: 200px;
+	height: 150px;
+	position: absolute;
+	top: 0;
+	text-align: center;
+	font-size: 60px;
+	color: #fff;
+	border-radius: 8px;
+	line-height: 150px;
+	transition: all .4s;
+	transform: perspective(200px) rotateX(-90deg);
+	transform-origin: center top;
+	background-color: rgba(0, 0, 0, 0);
+}
+.active:hover::after{
+	content: 'View';
+	background-color: rgba(0, 0, 0, 0.2);
+	transform: rotateX(0deg);
+}
+
 
 .gh-page{
 	-webkit-user-select: none;
@@ -68,61 +154,4 @@ body{
 	100%{
 		transform: scale(1);
 	}
-}
-
-div{
-	width: 90%;
-	margin: auto;
-}
-
-#list{
-	text-align: center;
-}
-
-#list li{
-	display: inline-block;
-	vertical-align: middle;
-	width: 200px;
-	height: 150px;
-	margin: 10px 20px;
-	border-bottom: 3px solid rgba(0, 0, 0, 0.4);
-	border-radius: 10px;
-}
-
-#list li a{
-	display: block;
-	width: 200px;
-	height: 150px;
-	color: #666;
-}
-#list li a h2{
-	text-align: center;
-	font-size: 20px;
-	font-weight: bold;
-	line-height: 40px;
-}
-#list li a div{
-	width: 150px;
-	line-height: 20px;
-	font-size: 12px;
-	text-align: left;
-}
-
-.active::before{
-	content: '';
-	display: block;
-	width: 200px;
-	height: 150px;
-	position: absolute;
-	text-align: center;
-	font-size: 50px;
-	color: #fff;
-	border-radius: 8px;
-	line-height: 150px;
-	transition: all 0.3s;
-	background-color: rgba(0, 0, 0, 0);
-}
-.active:hover::before{
-	content: 'View';
-	background-color: rgba(0, 0, 0, 0.4);
 }
