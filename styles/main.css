@@ -47,8 +47,7 @@ div{
 	font-size: 12px;
 	text-align: left;
 }
-
-.active::before{
+.active::before,.active::after{
 	content: 'View';
 	display: block;
 	width: 200px;
@@ -60,38 +59,24 @@ div{
 	border-radius: 8px;
 	line-height: 150px;
 	transition: all .4s;
-	transform: perspective(200px) rotateX(90deg);
-	transform-origin: center bottom;
 	background-color: rgba(0, 0, 0, 0);
+	/*transform-style: preserve-3d;*/
+	/*backface-visibility:hidden;*/
 }
-.active:hover::before{
-	content: 'View';
-	background-color: rgba(0, 0, 0, 0.2);
-	transform: rotateX(0deg);
+.active::before{
+	transform: perspective(150px) rotateX(90deg) translateZ(0px);
+	transform-origin: center bottom;
 }
 .active::after{
-	content: 'View';
-	display: block;
-	width: 200px;
-	height: 150px;
-	position: absolute;
 	top: 0;
-	text-align: center;
-	font-size: 60px;
-	color: #fff;
-	border-radius: 8px;
-	line-height: 150px;
-	transition: all .4s;
-	transform: perspective(200px) rotateX(-90deg);
+	transform: perspective(150px) rotateX(-90deg) translateZ(0px);
 	transform-origin: center top;
-	background-color: rgba(0, 0, 0, 0);
 }
-.active:hover::after{
+.active:hover::before,.active:hover::after{
 	content: 'View';
 	background-color: rgba(0, 0, 0, 0.2);
 	transform: rotateX(0deg);
 }
-
 
 .gh-page{
 	-webkit-user-select: none;
@@ -101,19 +86,24 @@ div{
 	user-select: none;
 	margin: 20px;
 	font-weight: bold;
-	font-size: 0px;
+	font-size: 50px;
 	text-align: center;
 	color: #34495E;
 }
 .gh-page span{
 	font-size: 50px;
 	display: inline-block;
-}
-.gh-page:hover span{
-	animation: spanT 0.4s linear;
+	/*animation: spanT 3.4s linear;*/
+	animation-iteration-count: infinite;
+	transform-origin: 50% -20px;
 }
 .gh-page span:nth-child(1){
 	animation-delay: 0s;
+	/*animation: spanTT 3.4s linear;*/
+	animation-iteration-count: infinite;
+	/*background-image: url(羊头锤子.png);*/
+	background-repeat: no-repeat;
+	padding: 32px;
 }
 .gh-page span:nth-child(2){
 	animation-delay: 0.1s;
@@ -145,14 +135,64 @@ div{
 .gh-page span:nth-child(11){
 	animation-delay: 1s;
 }
+@keyframes spanTT{
+	0%{
+		transform: perspective(100px) rotateZ(0deg);
+	}
+	52%{
+		transform: perspective(100px) rotateZ(50deg);
+	}
+	53%{
+		transform: perspective(100px) rotateZ(45deg);
+	}
+	54%{
+		transform: perspective(100px) rotateZ(30deg);
+	}
+	55%{
+		transform: perspective(100px) rotateZ(-20deg);
+	}
+}
 @keyframes spanT{
 	0%{
-		transform: scale(1);
+		transform: perspective(100px) rotateZ(0deg);
 	}
-	50%{
-		transform: scale(4);
+	54%{
+		transform: perspective(100px) rotateZ(0deg);
+	}
+	55%{
+		transform: perspective(100px) rotateZ(-50deg);
+	}
+	60%{
+		transform: perspective(100px) rotateZ(45deg);
+	}
+	65%{
+		transform: perspective(100px) rotateZ(-40deg);
+	}
+	70%{
+		transform: perspective(100px) rotateZ(35deg);
+	}
+	75%{
+		transform: perspective(100px) rotateZ(-30deg);
+	}
+	80%{
+		transform: perspective(100px) rotateZ(25deg);
+	}
+	85%{
+		transform: perspective(100px) rotateZ(-20deg);
+	}
+	90%{
+		transform: perspective(100px) rotateZ(15deg);
+	}
+	95%{
+		transform: perspective(100px) rotateZ(-10deg);
+	}
+	97%{
+		transform: perspective(100px) rotateZ(5deg);
+	}
+	99%{
+		transform: perspective(100px) rotateZ(-2deg);
 	}
 	100%{
-		transform: scale(1);
+		transform: perspective(100px) rotateZ(0deg);
 	}
 }
