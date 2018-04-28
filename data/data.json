@@ -1,41 +1,41 @@
 [{
 		"title": "网页打字通",
-		"href": "http://jyfiaueng.github.io/webTyping/",
+		"href": "http://47.88.221.9/webTyping/",
 		"content": "练习打字速度，实时计算，自动对课程进行记录，还可以自定义打字内容和时间，自定义课程记录会存储到本地，再次到来自动加载。"
 	},
 	{
 		"title": "坦克大战怀旧版",
-		"href": "http://jyfiaueng.github.io/tank/",
+		"href": "http://47.88.221.9/tank/",
 		"content": "仿造小时候买的5元机上的黑白坦克大战做的。"
 	},
 	{
 		"title": "俄罗斯方块",
-		"href": "http://jyfiaueng.github.io/Tetris/",
+		"href": "http://47.88.221.9/Tetris/",
 		"content": "仿造小时候买的5元机上的黑白俄罗斯方块做的。"
 	},
 	{
 		"title": "我的影展",
-		"href": "http://jyfiaueng.github.io/myMovie/",
+		"href": "http://47.88.221.9/myMovie/",
 		"content": "把我看过的电影数据全部抓下来做的展示页。"
 	},
 	{
 		"title": "工作博文",
-		"href": "http://jyfiaueng.github.io/joblog",
+		"href": "http://47.88.221.9/joblog",
 		"content": "工作中的经验总结等。"
 	},
 	{
 		"title": "2048出行版",
-		"href": "http://jyfiaueng.github.io/2048/",
+		"href": "http://47.88.221.9/2048/",
 		"content": "在慕课网上学习的2048，全部手敲下来，做了一些小修改。"
 	},
 	{
 		"title": "拼图",
-		"href": "http://jyfiaueng.github.io/jigsaw/",
+		"href": "http://47.88.221.9/jigsaw/",
 		"content": "拼图小游戏，使用div拼合实现。"
 	},
 	{
 		"title": "关于我",
-		"href": "http://jyfiaueng.github.io/about-me/",
+		"href": "http://47.88.221.9/about-me/",
 		"content": "个人简历。"
 	},
 	{
@@ -55,7 +55,7 @@
 	},
 	{
 		"title": "设计模式",
-		"href": "http://jyfiaueng.github.io/DesignPatterns/",
+		"href": "http://47.88.221.9/DesignPatterns/",
 		"content": "对十几种常用的设计模式进行了总结，有很多例子供参考。"
 	},
 	{
@@ -65,42 +65,42 @@
 	},
 	{
 		"title": "indexedDB",
-		"href": "http://jyfiaueng.github.io/web-storage/",
+		"href": "http://47.88.221.9/web-storage/",
 		"content": "对indexedDB数据库的测试demo，这个还是很有用的。"
 	},
 	{
 		"title": "慕课爬虫",
-		"href": "http://jyfiaueng.github.io/mukeData/",
+		"href": "http://47.88.221.9/mukeData/",
 		"content": "爬取慕课网20万用户信息，对经验值进行简单表格处理显示。"
 	},
 	{
 		"title": "Canvas",
-		"href": "http://jyfiaueng.github.io/Canvas/",
+		"href": "http://47.88.221.9/Canvas/",
 		"content": "各种Canvas效果，自己做的和看课程学的。"
 	},
 	{
 		"title": "看你有多色",
-		"href": "http://jyfiaueng.github.io/FindColor/",
+		"href": "http://47.88.221.9/FindColor/",
 		"content": "玩了“看你有多色”之后自己仿造的一个"
 	},
 	{
 		"title": "贪吃蛇",
-		"href": "http://jyfiaueng.github.io/snake/",
+		"href": "http://47.88.221.9/snake/",
 		"content": "无聊做的一个贪吃蛇"
 	},
 	{
 		"title": "瀑布流",
-		"href": "http://jyfiaueng.github.io/Waterfall-Flow/",
+		"href": "http://47.88.221.9/Waterfall-Flow/",
 		"content": "图片不断加载，通过js寻找合适的位置进行定位。"
 	},
 	{
 		"title": "sort",
-		"href": "http://jyfiaueng.github.io/sort/",
+		"href": "http://47.88.221.9/sort/",
 		"content": "八种排序算法对10万个不重复的数进行排序，使用web worker分别计算，列出时间。"
 	},
 	{
 		"title": "杂乱",
-		"href": "http://jyfiaueng.github.io/DemoList/",
+		"href": "http://47.88.221.9/DemoList/",
 		"content": "各种小东西，页面小效果等。"
 	},
 	{
@@ -110,22 +110,22 @@
 	},
 	{
 		"title": "常用色彩",
-		"href": "http://jyfiaueng.github.io/color/",
+		"href": "http://47.88.221.9/color/",
 		"content": "扁平化页面常用的20种色彩。"
 	},
 	{
 		"title": "web安全色",
-		"href": "http://jyfiaueng.github.io/webcolor/",
+		"href": "http://47.88.221.9/webcolor/",
 		"content": "216种web安全色。"
 	},
 	{
 		"title": "禅意花园",
-		"href": "http://jyfiaueng.github.io/ZenGarden/",
+		"href": "http://47.88.221.9/ZenGarden/",
 		"content": "使用固定的html结构，用css做出不一样的效果，这是我做的一个。"
 	},
 	{
 		"title": "impress介绍",
-		"href": "http://jyfiaueng.github.io/impressAPI/",
+		"href": "http://47.88.221.9/impressAPI/",
 		"content": "对impress的API进行简单的介绍。"
 	}
 ]
