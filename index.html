@@ -33,6 +33,7 @@
 		ajaxGet('data/data.json', function (data) {
 			var dataList;
 			dataList = JSON.parse(data);
+			dataList.sort((a, b) => a.sequence - b.sequence);
 			var html = '';
 			for (var i = 0; i < dataList.length; i++) {
 				var str = '<li><a href=' + dataList[i].href + ' class="active" target="_block" rel="noopener noreferrer"/><h2>' +
