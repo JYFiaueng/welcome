@@ -154,11 +154,5 @@
     "href": "https://www.jyuf.top/test",
     "content": "这里是一个自动部署测试",
     "sequence": 9
-  },
-  {
-    "title": "山西面食",
-    "href": "https://www.jyuf.top/sxms",
-    "content": "山西面食体系介绍",
-    "sequence": 1
   }
 ]
