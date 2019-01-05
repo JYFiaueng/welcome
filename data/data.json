@@ -78,6 +78,12 @@
     "sequence": 10
   },
   {
+    "title": "music",
+    "href": "https://www.jyuf.top/canvas-music/",
+    "content": "慕课网教程——实现音乐可视化",
+    "sequence": 10
+  },
+  {
     "title": "慕课爬虫",
     "href": "https://www.jyuf.top/mukeData/",
     "content": "爬取慕课网20万用户信息，对经验值进行简单表格处理显示。",
